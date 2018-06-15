@@ -15,8 +15,8 @@
 		4715DC571ECDA01400B7A5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4715DC551ECDA01400B7A5F8 /* LaunchScreen.storyboard */; };
 		4715DC621ECDA01400B7A5F8 /* JQUnitFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4715DC611ECDA01400B7A5F8 /* JQUnitFieldDemoTests.m */; };
 		4715DC6D1ECDA01400B7A5F8 /* JQUnitFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4715DC6C1ECDA01400B7A5F8 /* JQUnitFieldDemoUITests.m */; };
-		4715DC7D1ECDA01E00B7A5F8 /* JQUnitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4715DC7C1ECDA01E00B7A5F8 /* JQUnitField.m */; };
 		477C14F81ECE9B700065370C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477C14F71ECE9B700065370C /* MyViewController.m */; };
+		BF19AA6120D35E5500A154DB /* JQUnitField.m in Sources */ = {isa = PBXBuildFile; fileRef = BF19AA6020D35E5500A154DB /* JQUnitField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		4715DC681ECDA01400B7A5F8 /* JQUnitFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQUnitFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4715DC6C1ECDA01400B7A5F8 /* JQUnitFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQUnitFieldDemoUITests.m; sourceTree = "<group>"; };
 		4715DC6E1ECDA01400B7A5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4715DC7B1ECDA01E00B7A5F8 /* JQUnitField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQUnitField.h; sourceTree = "<group>"; };
-		4715DC7C1ECDA01E00B7A5F8 /* JQUnitField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQUnitField.m; sourceTree = "<group>"; };
 		477C14F61ECE9B700065370C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		477C14F71ECE9B700065370C /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		BF19AA5F20D35E5500A154DB /* JQUnitField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQUnitField.h; sourceTree = "<group>"; };
+		BF19AA6020D35E5500A154DB /* JQUnitField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQUnitField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		4715DC461ECDA01400B7A5F8 /* JQUnitFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4715DC7A1ECDA01E00B7A5F8 /* JQUnitField */,
+				BF19AA5E20D35E5500A154DB /* JQUnitField */,
 				4715DC4A1ECDA01400B7A5F8 /* AppDelegate.h */,
 				4715DC4B1ECDA01400B7A5F8 /* AppDelegate.m */,
 				4715DC4D1ECDA01400B7A5F8 /* ViewController.h */,
@@ -149,13 +149,14 @@
 			path = JQUnitFieldDemoUITests;
 			sourceTree = "<group>";
 		};
-		4715DC7A1ECDA01E00B7A5F8 /* JQUnitField */ = {
+		BF19AA5E20D35E5500A154DB /* JQUnitField */ = {
 			isa = PBXGroup;
 			children = (
-				4715DC7B1ECDA01E00B7A5F8 /* JQUnitField.h */,
-				4715DC7C1ECDA01E00B7A5F8 /* JQUnitField.m */,
+				BF19AA5F20D35E5500A154DB /* JQUnitField.h */,
+				BF19AA6020D35E5500A154DB /* JQUnitField.m */,
 			);
-			path = JQUnitField;
+			name = JQUnitField;
+			path = ../../JQUnitField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +226,7 @@
 				TargetAttributes = {
 					4715DC431ECDA01400B7A5F8 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = WTB2BKP7UZ;
+						DevelopmentTeam = UP6A7KLK54;
 						ProvisioningStyle = Automatic;
 					};
 					4715DC5C1ECDA01400B7A5F8 = {
@@ -294,10 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF19AA6120D35E5500A154DB /* JQUnitField.m in Sources */,
 				4715DC4F1ECDA01400B7A5F8 /* ViewController.m in Sources */,
 				4715DC4C1ECDA01400B7A5F8 /* AppDelegate.m in Sources */,
 				4715DC491ECDA01400B7A5F8 /* main.m in Sources */,
-				4715DC7D1ECDA01E00B7A5F8 /* JQUnitField.m in Sources */,
 				477C14F81ECE9B700065370C /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,8 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = UP6A7KLK54;
 				INFOPLIST_FILE = JQUnitFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQUnitFieldDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -461,8 +463,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = UP6A7KLK54;
 				INFOPLIST_FILE = JQUnitFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQUnitFieldDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
